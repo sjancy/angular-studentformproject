@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'angular-studentformproject';
+  title = 'Angular 10 spring Boot CURD Full Stack App';
+
 }

@@ -1,0 +1,32 @@
+<div class="col-md-6 offset-md-3">
+    <h3> Search Student</h3>
+    <form (ngSubmit)="onSubmit()">
+
+        <div class="form-group">
+            <label> Name </label>
+            <input type="text" class="form-control" id="name" [(ngModel)]="student.name" name="name">
+        </div>
+
+        <br>
+
+        <td>
+            <button class="btn btn-success" type="submit"> Search</button>
+        </td>
+    </form>
+
+    <br>
+    <form (ngSubmit)="onSubmit()">
+
+        <div class="form-group">
+            <label> Student Id </label>
+            <input type="text" class="form-control" id="id" [(ngModel)]="student.id" name="id">
+        </div>
+
+        <br>
+
+        <td>
+
+            <button (click)="searchstudentbyid(student.id)" class="btn btn-info"> Submit</button>
+        </td>
+    </form>
+</div>
